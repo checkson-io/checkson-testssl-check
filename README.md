@@ -6,7 +6,7 @@ You can use this check to find out if:
 * The certificate will expire within 60 days (level: `MEDIUM`)
 * The certificate will expire within 30 days (level: `HIGH`)
 * Deprecated SSL/TLS versions (like `TLS 1`, `TLS 1.1`) are offered by the server (level: `LOW`)
-* The certificate chain is incomplete
+* The certificate chain is incomplete (level: `CRITICAL`)
 * Insecure ciphers are offered
 
 It uses the excellent [testssl.sh](https://testssl.sh/).
