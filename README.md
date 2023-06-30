@@ -20,4 +20,4 @@ It uses the excellent [testssl.sh](https://testssl.sh/).
 
 ## Tips
 
-* You can try this check against the TLS endpoints offered by (badssl.com)[https://badssl.com]
+* You can try this check against the TLS endpoints offered by [badssl.com](https://badssl.com)
