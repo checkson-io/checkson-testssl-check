@@ -18,6 +18,17 @@ It uses the excellent [testssl.sh](https://testssl.sh/).
 | URL      | The URL to check, e.g. https://example.com |
 | LEVEL    | The threshold for failing the check, can be one of `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`. Default is `MEDIUM` |
 
+## Run check locally
+
+```
+docker run \
+  --env URL=https://expired.badssl.com/ \
+  --env LEVEL=LOW \
+  --rm \
+  -it \
+  ghcr.io/checkson-io/checkson-check-testssl:main
+```
+
 ## Tips
 
 * You can try this check against the TLS endpoints offered by [badssl.com](https://badssl.com)
