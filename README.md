@@ -26,7 +26,7 @@ docker run \
   --env LEVEL=LOW \
   --rm \
   -it \
-  ghcr.io/checkson-io/checkson-check-testssl:main
+  ghcr.io/checkson-io/checkson-testssl-check:main
 ```
 
 ## Tips
