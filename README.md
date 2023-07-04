@@ -20,7 +20,7 @@ It uses the excellent [testssl.sh](https://testssl.sh/).
 
 ## Use check on Checkson
 
-This check can be used on [checkson.io](https://checkson.io) with the following Docker image on ghcr.io:
+This check can be used on [checkson.io](https://checkson.io) with the following Docker image:
 
 ```
 ghcr.io/checkson-io/checkson-testssl-check:main
